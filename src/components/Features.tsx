@@ -15,8 +15,8 @@ function Features() {
 
       <div>
         {
-          features.map(feature => (
-            <Feature image={feature.image} title={feature.title} body={feature.body} />
+          features.map((feature, index) => (
+            <Feature key={index} image={feature.image} title={feature.title} body={feature.body} />
           ))
         }
       </div>
