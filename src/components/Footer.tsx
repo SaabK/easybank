@@ -27,15 +27,15 @@ function Footer() {
           </div>
 
           <ul className="font-light text-white/90 text-sm flex flex-col gap-2.5">
-            <li>About Us</li>
-            <li>Contact</li>
-            <li>Blog</li>
+            <li className="hover:text-lime-green cursor-pointer">About Us</li>
+            <li className="hover:text-lime-green cursor-pointer">Contact</li>
+            <li className="hover:text-lime-green cursor-pointer">Blog</li>
           </ul>
 
           <ul className="font-light text-white/90 text-sm flex flex-col gap-2.5">
-            <li>Careers</li>
-            <li>Support</li>
-            <li>Privacy Policy</li>
+            <li className="hover:text-lime-green cursor-pointer">Careers</li>
+            <li className="hover:text-lime-green cursor-pointer">Support</li>
+            <li className="hover:text-lime-green cursor-pointer">Privacy Policy</li>
           </ul>
 
         </div>

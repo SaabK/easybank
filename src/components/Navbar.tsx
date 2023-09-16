@@ -5,15 +5,30 @@ import PrimaryButton from './PrimaryButton';
 function Navbar() {
   return (
     <div className="bg-white z-30 relative">
-      <header className="container py-3 flex justify-between items-center">
+      <header className="container flex justify-between items-center py-3">
         <img src={logo} alt="Easybank" />
 
         <nav className="flex gap-x-6 text-sm">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-          <a href="/blog">Blog</a>
-          <a href="/careers">Careers</a>
+          <a className="flex flex-col relative group" href="/">
+            Home
+            <span className="h-1 w-full bg-lime-green absolute -bottom-[22px] hidden group-hover:block"></span>
+          </a>
+          <a className="flex flex-col relative group" href="/about">
+            About
+            <span className="h-1 w-full bg-lime-green absolute -bottom-[22px] hidden group-hover:block"></span>
+          </a>
+          <a className="flex flex-col relative group" href="/contact">
+            Contact
+            <span className="h-1 w-full bg-lime-green absolute -bottom-[22px] hidden group-hover:block"></span>
+          </a>
+          <a className="flex flex-col relative group" href="/blog">
+            Blog
+            <span className="h-1 w-full bg-lime-green absolute -bottom-[22px] hidden group-hover:block"></span>
+          </a>
+          <a className="flex flex-col relative group" href="/careers">
+            Careers
+            <span className="h-1 w-full bg-lime-green absolute -bottom-[22px] hidden group-hover:block"></span>
+          </a>
         </nav>
 
         <PrimaryButton text='Request Invite' />
