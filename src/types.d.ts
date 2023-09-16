@@ -14,3 +14,10 @@ export interface IArticle {
   body: string,
   author: string
 }
+
+export interface IIcon {
+  width: number,
+  height: number,
+  d: string,
+  color?: '#31d35c' | '#fff'
+}

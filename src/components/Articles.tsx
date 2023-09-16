@@ -4,14 +4,18 @@ import Article from './Article';
 
 function Articles() {
   return (
-    <section>
-      <h1>Latest Articles</h1>
-      {
-        articles.map((article, index) => (
-          <Article key={index} image={article.image} author={article.author} title={article.author} body={article.body} />
-        ))
-      }
-    </section>
+    <div className="bg-very-light-gray py-16">
+      <section className="container flex flex-col gap-8">
+        <h1 className="text-4xl">Latest Articles</h1>
+        <div className="grid grid-cols-4 gap-7">
+          {
+            articles.map((article, index) => (
+              <Article key={index} image={article.image} author={article.author} title={article.title} body={article.body} />
+            ))
+          }
+        </div>
+      </section>
+    </div>
   )
 }
 
