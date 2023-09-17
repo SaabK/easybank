@@ -1,4 +1,3 @@
-import React from 'react'
 import PrimaryButton from './PrimaryButton';
 import desktopIntroImage from '../assets/bg-intro-desktop.svg';
 import mobileIntroImage from '../assets/bg-intro-mobile.svg';

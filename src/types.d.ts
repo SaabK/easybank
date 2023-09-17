@@ -1,19 +1,19 @@
 export interface IPrimaryButton {
   text: string,
-  className: string
+  className?: string
 }
 
 export interface IFeature {
   image: string,
-  text: string,
-  body: string
+  body: string,
+  title: string
 }
 
 export interface IArticle {
   image: string,
-  text: string,
   body: string,
-  author: string
+  author: string,
+  title: string
 }
 
 export interface IIcon {
@@ -23,7 +23,6 @@ export interface IIcon {
   color?: '#31d35c' | '#fff'
 }
 
-export interface IisOpen {
-  isOpen?: boolean,
-  setIsOpen: () => void
+export interface IMobileNav {
+  toggleMenu?: () => void
 }

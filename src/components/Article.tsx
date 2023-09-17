@@ -1,4 +1,3 @@
-import React from 'react'
 import { IArticle } from '../types';
 
 function Article({ image, author, title, body }: IArticle) {

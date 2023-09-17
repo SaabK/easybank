@@ -1,4 +1,3 @@
-import React from 'react';
 import PrimaryButton from '../components/PrimaryButton';
 import logo from '../assets/logo-white.svg';
 import { social } from '../data/data';

@@ -1,4 +1,3 @@
-import React from 'react'
 import { articles } from '../data/data';
 import Article from './Article';
 

@@ -1,8 +1,7 @@
-import React from 'react';
 import closeMenuIcon from '../assets/icon-close.svg';
-import { IisOpen } from '../types';
+import { IMobileNav } from '../types';
 
-function MobileNav({ toggleMenu }: IisOpen) {
+function MobileNav({ toggleMenu }: IMobileNav) {
   return (
     <div className="absolute left-0 right-0 top-16 w-full px-4 md:hidden">
       <nav className="relative bg-white rounded-md p-5 z-30 flex flex-col">

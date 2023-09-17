@@ -1,4 +1,3 @@
-import React from 'react'
 import { IFeature } from '../types';
 
 function Feature({ image, title, body }: IFeature) {

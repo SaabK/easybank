@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { IIcon } from '../types';
 
 const hoverColor = '#31d35c';

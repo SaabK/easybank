@@ -1,4 +1,3 @@
-import React from 'react'
 import Feature from './Feature';
 import { features } from '../data/data';
 
