@@ -22,3 +22,8 @@ export interface IIcon {
   d: string,
   color?: '#31d35c' | '#fff'
 }
+
+export interface IisOpen {
+  isOpen?: boolean,
+  setIsOpen: () => void
+}
