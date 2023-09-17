@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Easybank](https://your-live-site-url.com)
+- Live Site URL: [Easybank](https://main--resonant-choux-2bcd9e.netlify.app/)
 
 ## My process
 
