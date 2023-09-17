@@ -1,5 +1,6 @@
 export interface IPrimaryButton {
-  text: string
+  text: string,
+  className: string
 }
 
 export interface IFeature {
